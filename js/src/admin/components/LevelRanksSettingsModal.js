@@ -1,8 +1,8 @@
 import SettingsModal from 'flarum/components/SettingsModal';
 
-export default class LevelRanksSettingsModal extends SettingsModal {
+export default class ForumLevelsSettingsModal extends SettingsModal {
     className() {
-        return 'LevelRanksSettingsModal Modal--medium';
+        return 'ForumLevelsSettingsModal Modal--medium';
     }
 
     title() {
